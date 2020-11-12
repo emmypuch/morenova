@@ -178,3 +178,126 @@ img {
 #cloud-img {
   width: 350px;
 }
+
+/* Languages styling */
+.languages .flex {
+  flex-wrap: wrap;
+}
+
+.languages .card {
+  text-align: center;
+  margin: 18px 10px 40px;
+  transition: transform 0.2s ease-in;
+}
+
+.languages .card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.languages .card:hover {
+  transform: translateY(-15px);
+}
+
+/* Features styling */
+.features-sub-head {
+  background-color: #fafbfc;
+}
+
+.features-head img {
+  width: 200px;
+  justify-self: flex-end;
+}
+
+.features-sub-head img {
+  width: 300px;
+  justify-self: flex-end;
+}
+
+.features-main .card > i {
+  margin-right: 20px;
+}
+
+.features-main .grid {
+  padding: 30px;
+}
+
+.features-main .grid > *:first-child {
+  grid-column: 1 / span 3;
+}
+
+.features-main .grid > *:nth-child(2) {
+  grid-column: 1 / span 2;
+}
+
+/* Footer styling */
+.footer {
+  background: #2b688a;
+}
+
+.container h1 {
+  color: #b4becb;
+}
+
+.container p {
+  color: #b4becb;
+}
+
+.container a {
+  color: #b4becb;
+}
+
+.footer .social a {
+  margin: 0 10px;
+}
+
+/* Tablets and under styling */
+@media (max-width: 768px) {
+  .grid,
+  .hero,
+  .grid,
+  .stats,
+  .grid,
+  .cli,
+  .grid,
+  .cloud,
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .hero {
+    height: auto;
+  }
+
+  .hero-text {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .hero-form {
+    justify-self: center;
+    margin: auto;
+  }
+
+  .cli .grid > *:first-child {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
+
+/* Mobile styling */
+@media (max-width: 500px) {
+  .navbar {
+    height: 110px;
+  }
+
+  .navbar .flex {
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
