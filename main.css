@@ -180,10 +180,10 @@ pre {
   grid-row: 1 / span 2;
 }
 
-.grid img {
+/* .grid img {
   width: 600px;
   height: 160px;
-}
+} */
 
 /* Cloud Hosting styling */
 .cloud .grid {
