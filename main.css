@@ -65,6 +65,7 @@ pre {
   padding: 10px;
   margin: 0 5px;
   color: #dfe6eb;
+  font-size: 1.3rem;
 }
 
 .navbar a:hover {
@@ -180,11 +181,6 @@ pre {
   grid-row: 1 / span 2;
 }
 
-/* .grid img {
-  width: 600px;
-  height: 160px;
-} */
-
 /* Cloud Hosting styling */
 .cloud .grid {
   grid-template-columns: 4fr 3fr;
@@ -282,10 +278,12 @@ pre {
 
 .container a {
   color: #b4becb;
+  font-size: 1.2rem;
 }
 
 .footer .social a {
   margin: 0 10px;
+  font-size: 1.5rem;
 }
 
 /* Animations styling */
